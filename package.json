@@ -1,0 +1,16 @@
+{
+  "name": "import_and_require",
+  "version": "1.0.0",
+  "description": "testing import and require for inserting components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app":"nodemon -r esm index2.js"
+  },
+  "author": "GManentis",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
