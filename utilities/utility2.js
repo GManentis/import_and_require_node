@@ -1,4 +1,4 @@
-export default function main(){
+export default function(){
     console.log("It can be only one");
 }
 
